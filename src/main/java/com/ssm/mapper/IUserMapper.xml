@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.ssm.mapper.IUserMapper">
+
+    <!--<select id="findUsers" resultType="hashmap" parameterType="hashmap">
+        select * from tuser
+        <where>
+            <if test="ids !=null and ids !=''">
+                id in (#{ids})
+            </if>
+        </where>
+    </select>-->
+
+</mapper>
